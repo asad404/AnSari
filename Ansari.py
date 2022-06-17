@@ -443,15 +443,15 @@ class Main:
 		print(" [5]\033[1;32m 2011-22 Cloning")
 		print(" [E]\033[1;33m Exit \n")
 		Ali =input(" Choose : ")
-		if ASAD in ["1", "01"]:
+		if SYED in ["1", "01"]:
 			File()
-		if ASAD in ["2", "02"]:
+		if SYED in ["2", "02"]:
 			Public()
-		if ASAD in ["3", "03"]:
+		if SYED in ["3", "03"]:
 			os.system("python Dump.py")
-		if ASAD in ["4", "04"]:
+		if SYED in ["4", "04"]:
 			self.old()
-		if ASAD in ["5", "05"]:
+		if SYED in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
