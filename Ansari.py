@@ -1350,4 +1350,3 @@ def Subscraption():
 		os.system('am start https://wa.me/+923144795189?text=' + tks)
 		Subscraption()        
 Main()
-except Exception as e:exit(str(e))
