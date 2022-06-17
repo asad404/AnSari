@@ -440,10 +440,10 @@ class Main:
 		print(" [2]\033[1;33m Public Cloning")
 		print(" [3]\033[1;32m Create File")
 		print(" [4]\033[1;33m 2009-10 Cloning")
-		print(" [5]\033[1;32m 2011-14 Cloning")
+		print(" [5]\033[1;32m 2011-22 Cloning")
 		print(" [E]\033[1;33m Exit \n")
 		Ali =input(" Choose : ")
-		if SYED in ["1", "01"]:
+		if ASAD in ["1", "01"]:
 			File()
 		if ASAD in ["2", "02"]:
 			Public()
@@ -1338,7 +1338,7 @@ def Subscraption():
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "+ak+ah +key1 )
+		print (" Your Key : "+ah+ah +key1 )
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
@@ -1350,3 +1350,4 @@ def Subscraption():
 		os.system('am start https://wa.me/+923144795189?text=' + tks)
 		Subscraption()        
 Main()
+except Exception as e:exit(str(e))
